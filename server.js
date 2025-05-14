@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 const imgDir = 'D:/img';
-const publicDir = path.join(__dirname, 'public');
+const publicDir = path.join(__dirname, '..','public');
 
 // 中间件配置
 app.use(cors());
