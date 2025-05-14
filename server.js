@@ -15,7 +15,7 @@ app.use('/images', express.static(imgDir));
 
 // HTML页面路由
 app.get('/', (req, res) => {
-  res.sendFile(path.join(publicDir, '111.html'));
+  res.sendFile(path.join(publicDir, '../public/111.html'));
 });
 
 // 分页API，返回图片信息
